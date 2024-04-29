@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.logo img{
+    width: 150px;
+    border-radius: 30px;
+   
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    background: #eaf2fb;
+    border-radius: 40px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+
+   
+}
+nav ul li:hover{
+    background: #b2cac7;
+    border-radius: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(19, 21, 20);
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    
+}
+.col-2 img{
+    width: 100%;
+    padding: 20px;
+    border-radius: 80px;
+}
+.col-2 h1{
+   font-size: 40px;
+    line-height: 30px;
+}
+.col-2 a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    background: rgb(169, 228, 237);
+    color: aliceblue;
+    border-radius: 40px;
+    margin-top: 40px;
+    transition: background 0.7s;
+}
+.col-2 a:hover{
+    background: #83a19d;
+}
+.corp{
+    margin-top: -20px;
+    background: radial-gradient(#98cac3, #eaf2fb);
+}
+
+.col-3{
+    flex-basis: px;
+    min-width: 309px;
+    margin: auto;
+}
+.container h2{
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(48, 62, 61);
+    margin: 50px;
+}
+
+.col-4{
+   
+    min-width: 100px;
+    padding: 15px;
+    align-items: center;
+    transition: transform 0.4s;
+}
+.col-4:hover{
+    transform: translateY(-15px);
+}
+
+.corp2 a{
+    text-decoration: none;
+    display: inline-block;
+}
+.corp2 a h2{
+    background-color: rgb(185, 239, 220);
+    padding: 8px 50px;
+    border-radius: 40px;
+    transition: background 0.7s;
+    color: #1e2636;
+}
+.corp2 a h2:hover{
+    background-color: rgb(196, 238, 255);
+}
+.produit a{
+    text-decoration: none;
+    background: #98cac3;
+    color: #041f3c;
+}
+.produit a p{
+    background-color: #b2cac7;
+    border-radius: 5px;
+    transition: background 0.9s;
+}
+.produit a p:hover{
+    background-color: #576b6c;
+}
+.produit{
+    background-color: #e8f1f0;
+}
+
+
+.produit h4{
+    margin: 200px; 
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 30px;
+    background: rgb(209, 237, 245);
+    color: aliceblue;
+    border-radius: 40px;
+    margin-top: 40px;
+    transition: background 0.7s;
+}
+.produit h4:hover{
+    background: #83a19d;
+}
+.produit h4 a{
+    border-radius: 10px;
+    color: aliceblue;
+}

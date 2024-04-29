@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background: radial-gradient(#98cac3, #eaf2fb);
+}
+img{
+    border-radius: 10px;
+    padding: 40px;
+}
+h5{
+    color: aliceblue;
+    background-color: rgb(89, 138, 137);
+    border-radius: 5px;
+}
